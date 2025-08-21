@@ -1,7 +1,8 @@
 import os
 import shutil
+import mycolors
 
-tool_namekey = "pyautokit-01"
+tool_namekey = bright_yellow("pyautokit-02")
 
 # validate an input path if existing folder
 def validate_path(path):
